@@ -1,0 +1,155 @@
+/* Updated CSS (home.css) */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    margin: 0 auto;
+    background-color: #f6f6ff;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    height: 20px;
+}
+
+#imageScroller {
+    max-width: 100%;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+#imageScroller img {
+    width: 100%;
+    height: auto;
+    display: none;
+}
+
+#navigation {
+    display: flex;
+    justify-content: space-around;
+    background-color: #ecf0f1;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    gap: 5px;
+    width: 98%;
+}
+
+.nav-btn {
+    padding: 8px 16px;
+    font-size: 12px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.nav-btn-div {
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Add this style for the pressed state */
+.nav-btn-div:active {
+    background-color: white;
+}
+
+.homebtndiv, .walletbtndiv, .accountbtndiv, .activitybtndiv, .promotionbtndiv{
+    display: grid;
+    gap: 5px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    background-color: #3498db;
+}
+i{
+    padding-top: 10px;
+    font-size: 21px;
+}
+section {
+    margin: 20px;
+    max-width: 390px;
+}
+
+#profile {
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+
+#user-info {
+    text-align: center;
+}
+
+#user-info img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.cautain{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    background-color: #ffffff;
+    color: #333;
+    font-size: 12px;
+    height: 35px;
+    margin: 10px;
+    padding: 4px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.cautain i{
+    margin-left: 5px;
+    color: blueviolet;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+#butonmore{
+    padding: 2px 15px;
+    background-color: blueviolet;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.lottery{
+    height: 120px;
+    margin: 10px;
+    padding: 10px;
+    padding-top: 0px;
+    border-radius: 10px;
+}
+
+.lotteryp{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    align-items: center;
+    margin-left: 5px;
+    display: flex;
+    height: 22px;
+    padding: 5px;
+}
+.lotteryp i{
+    font-size: 14px;
+    color: #3498db;
+}
+.wingomem {
+    margin-top: 2px;
+    background: url(image/winolottery.png) center/cover;
+    height: 120px;
+    border-radius: 10px;
+}

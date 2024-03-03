@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="register.css">
+    <script src="https://kit.fontawesome.com/c58add7555.js" crossorigin="anonymous"></script>
+    <title>Register - Color Prediction Game</title>
+</head>
+<body>
+    <div class="register-container">
+        <form id="registerForm" action="register.php" method="POST" onsubmit="register(event)">
+            <h2>Register for 88 Club Game</h2>
+            
+            <label for="username"><i class="fa-solid fa-mobile"></i> Phone number:</label>
+            <input type="tel" placeholder="Plese enter the phone number" id="username" name="username" required>
+
+            <label for="password"><i class="fa-solid fa-lock"></i> Password:</label>
+            <input type="password" placeholder="Plese enterSet password" id="password" name="password" required>
+
+            <label for="confirmPassword"><i class="fa-solid fa-lock"></i> Confirm Password:</label>
+            <input type="password" placeholder="Plese enterConfirm password" id="confirmPassword" name="confirmPassword" required>
+
+            <label for="invitecode"><i class="fa-solid fa-envelope"></i> Invite code:</label>
+            <input type="text" placeholder="Plese enter the invitation code" id="invitecode" name="invitecode">
+
+            <div class="button-container">
+                <button class="registerbtn" type="submit">Register</button>
+                <button class="loginbtn" type="button" onclick="backToLogin()"><span>I have an account </span>Login</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="register.js"></script>
+</body>
+</html>

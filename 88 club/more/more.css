@@ -1,0 +1,118 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    justify-content: center;
+}
+
+.detail {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+main{
+    padding-top: 20px;
+    width: 350px;
+}
+a{
+    text-decoration: none;
+}
+
+.detail > div {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+.notification {
+    background-color: #1a1a1a; /* Dark background color */
+    color: #fff;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    background-color: transparent;
+    color: #ffd700; /* Gold color */
+    border: 2px solid #ffd700;
+    padding: 6px 14px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.button:hover {
+    background-color: #ffd700;
+    color: #1a1a1a; /* Dark color for text on hover */
+}
+
+h1 {
+    margin-left: 30px;
+    font-size: 28px;
+    text-align: center;
+    flex-grow: 0; /* Allow h1 to take available space and center horizontally */
+}
+
+
+
+
+.heading {
+    margin: 0;
+    font-size: 1.2rem; /* Relative font size */
+}
+
+.announcement, .safe-recharge, .officialcustomer, .phone-number {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    line-height: 1.6;
+    color: #555;
+}
+
+span {
+    font-weight: bold;
+    font-size: 16px;
+    color: #ff00c8;
+}
+i2{
+    font-size: 25px;
+    color: #4285f4;
+}
+.nomore {
+    background-color: #f2f2f2;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+}
+p3{
+    border: 1px #4285f4 dashed;
+    padding: 4px;
+    padding-left: 14px;
+    padding-right: 14px;
+    border-radius: 5px;
+}
+.bullet {
+    display: inline-block;
+    width: 1em;
+    margin-left: -28px;
+    margin-right: 8px;
+    color: #3166c4;
+}
+p{
+    margin-left: 1.5em;
+    line-height: 1.6;
+}

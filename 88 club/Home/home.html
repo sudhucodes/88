@@ -1,0 +1,65 @@
+<!-- Updated HTML (index.html) -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <script src="https://kit.fontawesome.com/c58add7555.js" crossorigin="anonymous"></script>
+    <title>User Homepage</title>
+</head>
+<body>
+    <header>
+        <h1>88 Club</h1>
+    </header>
+        <div id="imageScroller">
+            <img src="image/img1.jpg" alt="Image 1">
+            <img src="image/img2.jpg" alt="Image 2">
+            <img src="image/img3.jpg" alt="Image 3">
+            <img src="image/img4.jpg" alt="Image 4">
+            <img src="image/img5.jpg" alt="Image 5">
+            <!-- Add more images as needed -->
+        </div>
+
+        <div class="cautain">
+            <i class="fa-solid fa-volume-high"></i><p1>Welcome to 88 Club! Wish all of coustomers <br> have good experience playing game.
+            </p1>
+            <button id="butonmore" onclick="detail()" class="more">Detail</button>
+        </div>
+
+        
+        <div class="lottery">
+            <div class="lotteryp">
+                <p><i class="fa-regular fa-futbol"></i> Lottery</p>
+            </div>
+            <div onclick="wingo()" class="wingomem">
+            </div>
+        </div>
+
+
+    <nav id="navigation">
+        <div id="homeBtn" class="homebtndiv nav-btn-div">
+            <i class="fa-solid fa-house"></i>
+            <button id="homeBtn" class="nav-btn">Home</button>
+        </div>
+        <div class="activitybtndiv nav-btn-div">
+            <i class="fa-solid fa-briefcase"></i>
+            <button class="nav-btn">Activity</button>
+        </div>
+        <div class="promotionbtndiv nav-btn-div">
+            <i class="fa-solid fa-gem"></i>
+            <button class="nav-btn">Promotion</button>
+        </div>
+        <div class="walletbtndiv nav-btn-div">
+            <i class="fa-solid fa-wallet"></i>
+            <button class="nav-btn">Wallet</button>
+        </div>
+        <div id="accountBtn" class="accountbtndiv nav-btn-div">
+            <i class="fa-solid fa-user"></i>
+            <button id="accountBtn" class="nav-btn">Account</button>
+        </div>
+    </nav>
+    <script src="home.js"></script>
+</body>
+</html>

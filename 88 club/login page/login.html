@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <script src="https://kit.fontawesome.com/c58add7555.js" crossorigin="anonymous"></script>
+    <title>Login - Color Prediction Game</title>
+</head>
+<body>
+    <div class="login-container">
+        <form id="loginForm" action="login.php" method="POST" onsubmit="login(event)">
+            <h2>Login to 88 Club Game</h2>
+            
+            <div class="divcontphone">
+                
+    
+                <div class="divphone">
+                    <!-- Phone Number Input -->
+                <label for="phoneNumber"><i class="fa-solid fa-mobile"></i> Phone Number:</label>
+                <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="Enter your phone number" required>
+                </div>
+            </div>
+
+            <div class="divpsw">
+                <!-- Password Input -->
+            <label for="password"><i class="fa-solid fa-lock"></i> Password:</label>
+            <input type="password" id="password" placeholder="Enter your password" name="password" required>
+            </div>
+
+            <div class="rememberpsw">
+                <!-- Remember Password Checkbox -->
+            <label for="rememberPassword">Remember Password:</label>
+            <input type="checkbox" id="rememberPassword" name="rememberPassword">
+            </div>
+
+            <!-- Login and Register Buttons -->
+            <div class="button-container">
+                <button onclick="login()" type="submit">Login</button>
+                <button type="button" onclick="register()">Register</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>
